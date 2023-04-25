@@ -1,0 +1,34 @@
+.container {
+    width: 800px;
+    height: 200px;
+    background-color: black;
+}
+
+.post-text {
+    width: 80%;
+    height: 100%;
+    float: left;
+    background-color: aliceblue;
+}
+
+.post-header {
+    width: 100%;
+    height: 30%;
+    background-color: rosybrown;
+}
+
+.profile-img {
+    height: 100%;
+    float: left;
+}
+
+.post-content {}
+
+
+
+.post-img {
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: aqua;
+}
