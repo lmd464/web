@@ -1,13 +1,26 @@
-/* 
-1. div로는 구분만 수행 (말 그대로 "틀"임) - width, height 지정
-나머지 내부요소들에 각각 padding, margin 등 적용 
-2. 가로로 요소 배치 시 float, 그 후 밑에있는 것 영향 없애기 clear
-3. div의 width는 기본값이 auto로, 내부 요소의 크기대로 설정됨
-*/
+.navbar>li {
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+}
+
 
 .container {
     width: 800px;
     height: 200px;
+    margin-left: 30px;
 }
 
 .post-text-area {
@@ -54,6 +67,7 @@
 .post-name {
     width: 100%;
     height: 20%;
+    margin-top: 10px;
 }
 
 .post-name h4 {
