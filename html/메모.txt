@@ -10,4 +10,4 @@
 - z-index : 띄운거 여러개일때 높을수록 우선
 
 7) 편함 : div border-box / body margin 0 / html line-height 1.15
-9) 브라우저간 차이 : normalize.css 검색
+8) 브라우저간 차이 : normalize.css 검색
