@@ -1,13 +1,11 @@
-1) div로는 구분만 (말그대로 틀) - width, height 지정
-- 나머지 내부요소들에 각각 padding, margin 등 적용
-
-2) div width 기본값 auto - 내부 요소의 크기대로
-3) float, clean : 띄우기, 밑에있는거 영향없애기 (분리할 곳 사이 div, clear 적용)
-4) margin collapse : 테두리 겹치면 margin 같이 적용됨, margin 두개 겹치면 큰쪽만 적용
-5) margin auto : 중앙정렬
-6) position : 기준위치지정, 띄움 
+1) div로 구획을 세부적으로 나눌수록, 내부요소 위치설정이 용이함
+2) 크기 auto : 내부 요소 크기에 자동맞춤
+3) float, clean : 띄우기, 밑에 있는거 영향없애기 (분리할 곳 사이에 div 넣고 clear 적용)
+4) margin 0 auto : 중앙정렬
+5) position : 기준 위치 지정, 위로 띄움
 - relative, absolute, static, fixed 
 - z-index : 띄운거 여러개일때 높을수록 우선
 
-7) 편함 : div border-box / body margin 0 / html line-height 1.15
-8) 브라우저간 차이 : normalize.css 검색
+6) 추가해두면 편함 : div border-box / body margin 0 / html line-height 1.15
+7) 브라우저간 차이 대처 : normalize.css 검색
+8) 상하정렬 : position absolute, top 50%, height 절반만큼 margin-top 빼서 올림

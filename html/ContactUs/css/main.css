@@ -1,0 +1,111 @@
+div,
+input,
+textarea {
+    box-sizing: border-box;
+}
+
+h1,
+h4 {
+    margin: 0px;
+}
+
+/* 구획 나누기 */
+.container {
+    width: 500px;
+    height: 600px;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.header {
+    height: 15%;
+    /* background-color: aliceblue; */
+}
+
+.email {
+    height: 15%;
+    /* background-color: antiquewhite; */
+}
+
+.name {
+    height: 15%;
+}
+
+.first-name,
+.last-name {
+    width: 45%;
+    height: 100%;
+    float: left;
+    /* background-color: brown; */
+}
+
+.name-blank {
+    width: 10%;
+    height: 100%;
+    float: left;
+    /* background-color: darkkhaki; */
+}
+
+.message {
+    height: 40%;
+    /* background-color: aquamarine; */
+}
+
+.footer {
+    height: 15%;
+}
+
+.checkbox-area {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative
+        /* background-color: blueviolet; */
+}
+
+.submit-area {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    /* background-color: yellow; */
+}
+
+/* div로 구획을 다 나눴음 */
+/* 내부 요소들 */
+.name input,
+.email input,
+.message textarea {
+    width: 100%;
+    padding: 7px;
+    margin: 3px 0px
+}
+
+.checkbox-area input {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin: -7px 0px;
+}
+
+.checkbox-area label {
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    margin: -7px 14px;
+}
+
+.submit-area input {
+    width: 140px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -15px;
+    background-color: orange;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+}
