@@ -10,52 +10,57 @@ h4 {
 }
 
 /* 구획 나누기 */
-.container {
+.form-container {
     width: 500px;
     height: 600px;
     border: 1px solid black;
     padding: 40px;
 }
 
-.header {
+form {
+    width: 100%;
+    height: 100%;
+}
+
+.form-header {
     height: 15%;
     /* background-color: aliceblue; */
 }
 
-.email {
+.form-email {
     height: 15%;
     /* background-color: antiquewhite; */
 }
 
-.name {
+.form-user-name {
     height: 15%;
 }
 
-.first-name,
-.last-name {
+.form-first-name,
+.form-last-name {
     width: 45%;
     height: 100%;
     float: left;
     /* background-color: brown; */
 }
 
-.name-blank {
+.form-name-blank {
     width: 10%;
     height: 100%;
     float: left;
     /* background-color: darkkhaki; */
 }
 
-.message {
+.form-message {
     height: 40%;
     /* background-color: aquamarine; */
 }
 
-.footer {
+.form-footer {
     height: 15%;
 }
 
-.checkbox-area {
+.form-checkbox-area {
     width: 50%;
     height: 100%;
     float: left;
@@ -63,7 +68,7 @@ h4 {
         /* background-color: blueviolet; */
 }
 
-.submit-area {
+.form-submit-area {
     width: 50%;
     height: 100%;
     float: left;
@@ -73,15 +78,15 @@ h4 {
 
 /* div로 구획을 다 나눴음 */
 /* 내부 요소들 */
-.name input,
-.email input,
-.message textarea {
+.form-user-name input,
+.form-email input,
+.form-message textarea {
     width: 100%;
     padding: 7px;
     margin: 3px 0px
 }
 
-.checkbox-area input {
+.form-checkbox-area input {
     width: 14px;
     height: 14px;
     position: absolute;
@@ -90,14 +95,14 @@ h4 {
     margin: -7px 0px;
 }
 
-.checkbox-area label {
+.form-checkbox-area label {
     position: absolute;
     left: 14px;
     top: 50%;
     margin: -7px 14px;
 }
 
-.submit-area input {
+.form-submit-area input {
     width: 140px;
     height: 30px;
     position: absolute;

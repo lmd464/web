@@ -9,47 +9,49 @@
 
 <body>
 
-    <div class="container">
-        <div class="header">
-            <h1>Contact Us</h1>
-        </div>
-
-        <div class="email">
-            <h4>Your Email</h4>
-            <form><input type="email" placeholder="email@example.com"></form>
-        </div>
-
-        <div class="name">
-            <div class="first-name">
-                <h4>First name</h4>
-                <form><input type="text"></form>
+    <div class="form-container">
+        <form>
+            <div class="form-header">
+                <h1>Contact Us</h1>
             </div>
-            <div class="name-blank"></div>
-            <div class="last-name">
-                <h4>Last name</h4>
-                <form><input type="text"></form>
+
+            <div class="form-email">
+                <h4>Your Email</h4>
+                <input type="email" placeholder="email@example.com">
             </div>
-        </div>
-        <div style="clear:both"></div>
 
-        <div class="message">
-            <h4>Message</h4>
-            <textarea rows="10"></textarea>
-        </div>
+            <div class="form-user-name">
+                <div class="form-first-name">
+                    <h4>First name</h4>
+                    <input type="text">
+                </div>
+                <div class="form-name-blank"></div>
+                <div class="form-last-name">
+                    <h4>Last name</h4>
+                    <input type="text">
+                </div>
+            </div>
+            <div style="clear:both"></div>
 
-        <div class="footer">
-            <div class="checkbox-area">
-                <form>
+            <div class="form-message">
+                <h4>Message</h4>
+                <textarea rows="10"></textarea>
+            </div>
+
+            <div class="form-footer">
+                <div class="form-checkbox-area">
+
                     <input type="checkbox" id="subscribe">
                     <label for="subscribe">Subscribe</label>
-                </form>
-            </div>
 
-            <div class="submit-area">
-                <form><input type="submit" value="SEND"></form>
+                </div>
+
+                <div class="form-submit-area">
+                    <input type="submit" value="SEND">
+                </div>
             </div>
-        </div>
-        <div style="clear:both"></div>
+            <div style="clear:both"></div>
+        </form>
     </div>
 
 </body>
