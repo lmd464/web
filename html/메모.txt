@@ -11,3 +11,8 @@
 8) 상하정렬 : position absolute, top 50%, height 절반만큼 margin-top 빼서 올림
 9) class 여러번 사용 가능하도록 짜기
 - 재사용했는데 스타일이 더 필요하면 class 추가해서 같이 사용
+
+10) vertical-align : 테이블 셀 내 상하정렬 / inline(-block) 간 상하정렬
+- ex) 큰거 옆에 작은거
+
+11) 
