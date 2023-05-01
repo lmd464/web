@@ -1,7 +1,8 @@
 1) div로 구획을 세부적으로 나눌수록, 내부요소 위치설정이 용이함
 2) 크기 auto : 내부 요소 크기에 자동맞춤
 3) float, clean : 띄우기, 밑에 있는거 영향없애기 (분리할 곳 사이에 div 넣고 clear 적용)
-4) margin auto : 중앙정렬
+4) margin auto : 중앙정렬 (block 만)
+- margin left auto : 우측정렬 (block 만)
 5) position : 기준 위치 지정, 위로 띄움
 - relative, absolute, static, fixed 
 - z-index : 띄운거 여러개일때 높을수록 우선
@@ -15,4 +16,8 @@
 10) vertical-align : 테이블 셀 내 상하정렬 / inline(-block) 간 상하정렬
 - ex) 큰거 옆에 작은거
 
-11) 
+11) 테이블의 한 셀만 width 설정 하면, 그 아래 셀들도 width 자동 조정됨
+12) td 의 width, height : 최대크기 의미
+13) nth-child(n) : n번쨰 요소만 스타일링 
+- n 자리에 even, odd, 3n+1 ... 가능
+14) text-align : 이미지도 정렬됨

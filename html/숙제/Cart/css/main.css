@@ -1,9 +1,77 @@
-table {
-    border-collapse: collapse
+body {
+    background-color: aqua;
+    box-sizing: border-box;
 }
 
-th,
-tr,
-td {
-    border: 1px solid black;
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*******************************************/
+/* 테이블 외부 구역 크기 나누기 */
+
+.header-area {
+    width: 100%;
+    height: 15%;
+    color: rgb(63, 39, 159);
+}
+
+.table-area {
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    border-collapse: collapse;
+    border-radius: 7px;
+}
+
+.footer-area {
+    width: 100%;
+    height: 15%;
+    padding-top: 30px;
+}
+
+/*******************************************/
+/* 테이블 내부 스타일링 (패딩, 정렬, 크기..) */
+
+.table-area th,
+.table-area td {
+    border-bottom: 1px solid aqua;
+    padding: 10px;
+}
+
+.table-area td {
+    text-align: right;
+}
+
+.table-area tbody td:nth-child(1) {
+    text-align: center;
+}
+
+.table-area tbody td:nth-child(2) {
+    text-align: left;
+    width: 35%;
+}
+
+.table-area img {
+    width: 50%;
+}
+
+.table-area tfoot td {
+    padding: 20px;
+}
+
+/*******************************************/
+/* Footer */
+
+.footer-area button {
+    padding: 20px 30px;
+    background-color: rgb(63, 39, 159);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-top: -30px;
 }
