@@ -137,3 +137,18 @@ body {
     position: relative;
     top: -50px;
 }
+
+/************************************************************/
+/* layout 2*/
+.flex-container {
+    display: flex;
+}
+
+.nav-logo,
+.nav-blank,
+.nav-info {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    margin: 5px;
+}

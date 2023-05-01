@@ -1,32 +1,34 @@
-1) div로 구획을 세부적으로 나눌수록, 내부요소 위치설정이 용이함
-2) 크기 auto : 내부 요소 크기에 자동맞춤
-3) float, clean : 띄우기, 밑에 있는거 영향없애기 (분리할 곳 사이에 div 넣고 clear 적용)
-4) margin auto : 중앙정렬 (block 만)
+* div로 구획을 세부적으로 나눌수록, 내부요소 위치설정이 용이함
+* 크기 auto : 내부 요소 크기에 자동맞춤
+* float, clean : 띄우기, 밑에 있는거 영향없애기 (분리할 곳 사이에 div 넣고 clear 적용)
+* margin auto : 중앙정렬 (block 만)
 - margin left auto : 우측정렬 (block 만)
-5) position : 기준 위치 지정, 위로 띄움
+
+* position : 기준 위치 지정, 위로 띄움
 - relative, absolute, static, fixed 
 - z-index : 띄운거 여러개일때 높을수록 우선
 
-6) 추가해두면 편함 : div border-box / body margin 0 / html line-height 1.15
-7) 브라우저간 차이 대처 : normalize.css 검색
-8) 상하정렬 : position absolute, top 50%, height 절반만큼 margin-top 빼서 올림
-9) class 여러번 사용 가능하도록 짜기
-- 재사용했는데 스타일이 더 필요하면 class 추가해서 같이 사용
-
-10) vertical-align : 테이블 셀 내 상하정렬 / inline(-block) 간 상하정렬
+* 추가해두면 편함 : div border-box / body margin 0 / html line-height 1.15
+* 브라우저간 차이 대처 : normalize.css 검색
+* 상하정렬 : position absolute, top 50%, height 절반만큼 margin-top 빼서 올림
+* vertical-align : 테이블 셀 내 상하정렬 / inline(-block) 간 상하정렬
 - ex) 큰거 옆에 작은거
 
-11) 테이블의 한 셀만 width 설정 하면, 그 아래 셀들도 width 자동 조정됨
-12) td 의 width, height : 최대크기 의미
-13) nth-child(n) : n번쨰 요소만 스타일링 
-- n 자리에 even, odd, 3n+1 ... 가능
-14) text-align : 이미지도 정렬됨
-15) hover - focus - active : 순서 hofa
-16) 방문 전 - :link, 방문후 - :visited
-
-17) 클래스 뼈와 살 분리 : 재사용
+* 테이블의 한 셀만 width 설정 하면, 그 아래 셀들도 width 자동 조정됨
+* td 의 width, height : 최대크기 의미
+* nth-child(n) : n번쨰 요소만 스타일링 - n 자리에 even, odd, 3n+1 ... 가능
+* hover - focus - active : 순서 hofa
+* 방문 전 - :link, 방문후 - :visited
+* 클래스 뼈와 살 분리 : 재사용, 여러개 사용
 - 자주 쓰는 Utility 클래스들 만들어놓으면 편함 (폰트같은거)
 
-18) BEM 작명 : 덩어리이름__역할--세부특징
+* BEM 작명 : 덩어리이름__역할--세부특징
+* transform: rotate(0.03deg) : 폰트 조금 돌려서 부드럽게
 
-19) transform: rotate(0.03deg) : 폰트 조금 돌려서 부드럽게
+* Flexbox
+- display: flex -> 자식들 가로배치
+- justify-content: center -> 가로 정렬
+- align-items: center -> 상하 정렬
+- flex-direction: column -> 세로 정렬
+- flex-wrap: wrap; -> 요소가 크면 밑으로 보냄
+- flex-grow: n -> n배수 크기 (자식요소적용)
