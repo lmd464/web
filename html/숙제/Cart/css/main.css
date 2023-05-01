@@ -74,4 +74,36 @@ body {
     display: block;
     margin-left: auto;
     margin-top: -30px;
+    cursor: pointer;
+}
+
+/*******************************************/
+/* Pseudo Class */
+button:hover {
+    background-color: green;
+}
+
+button:focus {
+    background-color: violet;
+}
+
+button:active {
+    background-color: red;
+    border: 2px solid black;
+}
+
+.input-test:focus {
+    border: 5px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+
+.custom-link:link {
+    color: blue;
+}
+
+.custom-link:visited {
+    color: red;
 }

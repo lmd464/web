@@ -21,3 +21,12 @@
 13) nth-child(n) : n번쨰 요소만 스타일링 
 - n 자리에 even, odd, 3n+1 ... 가능
 14) text-align : 이미지도 정렬됨
+15) hover - focus - active : 순서 hofa
+16) 방문 전 - :link, 방문후 - :visited
+
+17) 클래스 뼈와 살 분리 : 재사용
+- 자주 쓰는 Utility 클래스들 만들어놓으면 편함 (폰트같은거)
+
+18) BEM 작명 : 덩어리이름__역할--세부특징
+
+19) transform: rotate(0.03deg) : 폰트 조금 돌려서 부드럽게
