@@ -1,8 +1,6 @@
 * div로 구획을 세부적으로 나눌수록, 내부요소 위치설정이 용이함
 * 크기 auto : 내부 요소 크기에 자동맞춤
 * float, clean : 띄우기, 밑에 있는거 영향없애기 (분리할 곳 사이에 div 넣고 clear 적용)
-* margin auto : 중앙정렬 (block 만)
-- margin left auto : 우측정렬 (block 만)
 
 * position : 기준 위치 지정, 위로 띄움
 - relative, absolute, static, fixed 
@@ -10,10 +8,6 @@
 
 * 추가해두면 편함 : div border-box / body margin 0 / html line-height 1.15
 * 브라우저간 차이 대처 : normalize.css 검색
-* 상하정렬 : position absolute, top 50%, height 절반만큼 margin-top 빼서 올림
-* vertical-align : 테이블 셀 내 상하정렬 / inline(-block) 간 상하정렬
-- ex) 큰거 옆에 작은거
-
 * 테이블의 한 셀만 width 설정 하면, 그 아래 셀들도 width 자동 조정됨
 * td 의 width, height : 최대크기 의미
 * nth-child(n) : n번쨰 요소만 스타일링 - n 자리에 even, odd, 3n+1 ... 가능
@@ -22,13 +16,23 @@
 * 클래스 뼈와 살 분리 : 재사용, 여러개 사용
 - 자주 쓰는 Utility 클래스들 만들어놓으면 편함 (폰트같은거)
 
-* BEM 작명 : 덩어리이름__역할--세부특징
+* 클래스 작명 : 덩어리이름__역할--세부
 * transform: rotate(0.03deg) : 폰트 조금 돌려서 부드럽게
 
 * Flexbox
+1) 부모 박스에 적용
 - display: flex -> 자식들 가로배치
-- justify-content: center -> 가로 정렬
-- align-items: center -> 상하 정렬
-- flex-direction: column -> 세로 정렬
+- justify-content: (center) -> 자식박스들 가로정렬 방식 설정
+- align-items: (center) -> 자식박스들 세로정렬 방식 설정
+- flex-direction: (column) -> 자식박스들 정렬 뱡향 설정
 - flex-wrap: wrap; -> 요소가 크면 밑으로 보냄
-- flex-grow: n -> n배수 크기 (자식요소적용)
+2) 자식 박스에 적용
+- flex-grow: n -> n배수 크기
+
+* margin auto : "Block" 중앙정렬
+- margin left auto : Block 우측정렬
+
+* 상하정렬 : position absolute, top 50%, height 절반만큼 margin-top 빼서 올림
+* vertical-align : 테이블 셀 내 상하정렬 / inline(-block) 간 상하정렬
+
+* meta : description, keywords, viewport, og...
